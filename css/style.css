@@ -1,0 +1,37 @@
+@font-face {
+    font-family:"grormorant";
+    src: url(../webfonts/CormorantGaramond-MediumItalic.ttf);
+ }
+@font-face {
+    font-family: "grormorant-h";
+    src: url(../webfonts/CormorantGaramond-Bold.ttf);
+}
+
+
+:root
+{
+    --my-background-color:#efeaff;
+--my-font-family:"grormorant";
+--my-heading-font:"grormorant-h"
+}
+
+
+.qoute-container{
+    background-image:url(../images/background.png);
+    background-size: cover;
+    h1
+    {
+        font-size:3.75rem;
+    }
+   .main-font{
+font-family: var(--my-heading-font);
+    }
+    .qoute
+    {
+        font-family: var(--my-font-family);
+    }
+}
+.mybtn{
+    --bs-border-color:var(--my-background-color);
+    --bs-btn-bg:var(--my-background-color)
+}
